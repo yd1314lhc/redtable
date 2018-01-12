@@ -1,0 +1,66 @@
+html,body{/*取消边框跟页面周围的距离*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(226, 224, 224);
+}
+/* 头 */
+body .main{
+    position: relative;
+    left:15%;
+    width: 990px;
+    height: 500px;
+    background: url(../image/bg-img.jpg);
+    background-size: 100% 500px;
+    background-position: center;
+}
+.main_head{
+    display: block;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    line-height:20; 
+    
+}
+.main_list{
+    width:50%;
+    height:7.5%;
+    margin:0 auto;
+}
+.main_list li{
+    list-style-type: none;
+    float: left;
+
+}
+.main_list li  a{
+    text-decoration: none;
+}
+.main .main_list li{
+    margin: 6px;
+}
+.main .main_list .main_list_dow{
+    height: 15px;
+    width:1px;
+    margin-top:9px;
+    background-color: #000;
+}
+.main_list a,.main_list a:visited{
+    color:#08C7F7;
+}
+.main_list a:hover{
+    color:#F70A0A;
+}
+.main_list_i{
+    display: block;
+    height: 7px;
+    font-size: 15;
+}
+.main_list i{
+    position: absolute;
+    float:right;
+}
+.main_list_di{
+    height: 15px;
+    width:15px;;
+}

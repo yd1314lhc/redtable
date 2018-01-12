@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 我的博客</title>
+    <link rel="stylesheet" href="../css/css_bk.css" type="text/css">
+</head>
+<body>
+    <!-- 头 -->
+    <div class="main">
+        <div class="main_head">
+            <h1> xxx的博客</h1>
+        </div>
+        <div class="main_list">
+            <ul>
+                <li><a href="#" >首页</a></li>
+                <li class="main_list_dow"></li>
+                <li style="margin-right:20px;">
+                    <a href="#" >导航</a>
+                    <div class="main_list_di"><i class="main_list_i">◇</i></div>
+                </li>
+                <li class="main_list_dow"></li>
+                <li><a href="#">图片<a/></li>
+                <li class="main_list_dow"></li>
+                <li style="margin-right:20px;">
+                    <a href="#">关于</a>
+                    <div class="main_list_di"><i class="main_list_i">◇</i></div>
+                </li>
+                <li class="main_list_dow "></li>
+                <li><a href="#">地址</a></li>
+            </ul>
+        </div>
+    </div>
+    <div style="height:50px;width=50px;" >
+        <a href="#" onclick="clock()">123</a>
+    </div>
+</body>
+<script>
+    function clock(){
+        for(var i=60;i>=0;i--){
+            if(i!=0)
+                document.write(i);
+            else
+                alert("you deat!");
+        }
+
+    }
+</script>
+</html>
